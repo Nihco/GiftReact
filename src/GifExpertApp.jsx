@@ -20,7 +20,7 @@ export const GifExpertApp = () => {
                 onNewCategory={(value) => onAddCategory(value)}
             />
 
-            <button onClick={onAddCategory}>Agregar</button>
+            {/*<button onClick={onAddCategory}>Agregar</button>*/}
 
             {
                 categories.map(category => (
